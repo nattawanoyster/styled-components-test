@@ -122,7 +122,6 @@ const StarIcon = () => (
   </svg>
 );
 
-// Main Component
 const ProfileSection = () => (
   <>
     <HostProfileContainer>Host Profile</HostProfileContainer>
