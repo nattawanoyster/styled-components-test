@@ -30,8 +30,8 @@ const SearchInput = styled.input`
   width: 500px;
   border-radius: 8px;
   border: 1px solid #e6e6e6;
-  color: #000000; /* Set the text color to black */
-  font-size: 16px; /* Optional: Set font size for better readability */
+  color: #000000;
+  font-size: 16px; 
 
   @media (max-width: 768px) {
     width: 100%;
@@ -39,9 +39,8 @@ const SearchInput = styled.input`
   }
 
   &:focus {
-    outline: none; /* Removes the default outline when focused */
-    border-color: #ffbb75; /* Optional: Change border color when focused */
-  }
+    outline: none; 
+    border-color: #ffbb75; 
 `;
 
 const Button = styled.button`

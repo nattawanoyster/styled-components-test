@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import PicProfile from "../assets/img/cutedog.jpeg";
 
-// Host Profile Container (Orange box)
+// Host Profile Container (Green box)
 const HostProfileContainer = styled.div`
   background-color: #a8d1cf;
   padding: 10px;
@@ -20,7 +20,7 @@ const HostProfileContainer = styled.div`
   }
 `;
 
-// Profile container (split into two sections: left and right)
+// Profile container (split into two sections, left and right)
 const ProfileContainer = styled.div`
   display: flex;
   justify-content: space-between;
@@ -78,7 +78,7 @@ const ReviewRating = styled.div`
   color: #eab262;
   display: flex;
   align-items: center;
-  gap: 10px; /* Space between the rating text and the star icon */
+  gap: 10px;
   margin: 10px 0;
 `;
 

@@ -13,16 +13,16 @@ const FooterContainer = styled.footer`
 // Flexbox for the footer content
 const FooterContent = styled.div`
   display: flex;
-  justify-content: space-between; /* This will place BrandingSection on the left and LinksSection on the right */
-  align-items: flex-start; /* Align items to the top */
+  justify-content: space-between;
+  align-items: flex-start;
   width: 100%;
-  margin-bottom: 40px; /* Added space at the bottom */
+  margin-bottom: 40px;
   margin-left: 40px;
 `;
 
 // FlexGo Branding Section (on the left)
 const BrandingSection = styled.div`
-  flex: 1; /* Take available space on the left */
+  flex: 1;
 `;
 
 const BrandTitle = styled.h2`
@@ -39,7 +39,7 @@ const BrandText = styled.p`
 const SocialIcons = styled.div`
   margin-top: 15px;
   display: flex;
-  gap: 15px; /* Add space between the icons */
+  gap: 15px;
 `;
 
 // SVG icons styling (size adjustments)
@@ -60,14 +60,14 @@ const SvgIcon = styled.svg`
 // Links Section Container (for "About", "Community", "Socials")
 const LinksSection = styled.div`
   display: flex;
-  justify-content: center; /* Align columns to the left */
-  flex: 2; /* Take available space on the right */
-  gap: 120px; /* Adjust as needed */
+  justify-content: center;
+  flex: 2;
+  gap: 120px;
 `;
 
 // Individual Column Styles
 const Column = styled.div`
-  flex: 0 1 auto; /* Adjust the flex to only take necessary space */
+  flex: 0 1 auto;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;

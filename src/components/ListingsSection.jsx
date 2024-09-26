@@ -37,7 +37,7 @@ const ListingsContainer = styled.div`
 
   @media (max-width: 768px) {
     grid-template-columns: 1fr;
-    width: 95%; /* Adjust width for mobile */
+    width: 95%;
   }
 `;
 
@@ -45,7 +45,7 @@ const ListingCard = styled.div`
   background-color: #fff;
   border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 `;
 
 const ListingImage = styled.img`

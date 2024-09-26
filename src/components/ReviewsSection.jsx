@@ -27,7 +27,7 @@ const ReviewsContainer = styled.div`
 
   @media (max-width: 768px) {
     grid-template-columns: 1fr;
-    width: 95%; /* Adjust width for mobile */
+    width: 95%;
   }
 `;
 
@@ -46,13 +46,13 @@ const ReviewCard = styled.div`
 const ReviewAuthor = styled.h4`
   font-size: 18px;
   font-weight: bold;
-  margin-bottom: 10px; /* Adds space between author and text */
+  margin-bottom: 10px;
 `;
 const ReviewRating = styled.p`
   font-size: 18px;
   font-weight: semi-bold;
   font-style: italic;
-  margin-bottom: 10px; /* Adds space between author and text */
+  margin-bottom: 10px;
 `;
 
 const ReviewText = styled.p`
