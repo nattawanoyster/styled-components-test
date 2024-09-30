@@ -1,7 +1,6 @@
 import React from "react";
 import styled, { css } from "styled-components";
 
-// Global styles using CSS-in-JS
 const styles = css`
   .navBar {
     background-color: #ffc57b;
@@ -65,10 +64,9 @@ const styles = css`
   }
 `;
 
-// Main Header Component
 const Header = () => (
   <>
-    <style>{styles}</style> {/* Inject the styles here */}
+    <style>{styles}</style>
     <nav className="navBar">
       <div className="logo">FLEXGO</div>
       <input className="searchInput" type="text" placeholder="Search" />
